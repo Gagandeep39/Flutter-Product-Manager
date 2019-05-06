@@ -10,14 +10,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Product Manager',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurpleAccent[200],
+        primarySwatch: Colors.deepPurple,
       ),
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
           title: Text("Product Manager"),
         ),
-        body: ProductManager(),
+        body: ProductManager('Test Product'),
       ),
     );
   }
